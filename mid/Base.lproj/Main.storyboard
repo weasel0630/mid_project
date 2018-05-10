@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hbg-Xr-TUT">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Taiwan Butterfly-->
+        <scene sceneID="ie2-S5-QKj">
+            <objects>
+                <viewController id="VQR-sl-a0q" customClass="ButterflyViewController" customModule="mid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PML-5R-KRf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jah-7y-tg0">
+                                <rect key="frame" x="94" y="105.5" width="187" height="456"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xL-SP-vRj">
+                                        <rect key="frame" x="0.0" y="0.0" width="187" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="187" id="FCB-l3-YF2"/>
+                                            <constraint firstAttribute="height" constant="143" id="ffR-Z7-4iF"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                        <state key="normal" title="粉蝶科" backgroundImage="粉蝶科"/>
+                                        <connections>
+                                            <action selector="GoTable:" destination="VQR-sl-a0q" eventType="touchUpInside" id="EYe-a3-yhM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5E6-Yb-ZaY">
+                                        <rect key="frame" x="0.0" y="143" width="187" height="163"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="187" id="4JH-2j-km9"/>
+                                            <constraint firstAttribute="height" constant="163" id="hiS-aG-Bw2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                        <state key="normal" title="蛺蝶科" backgroundImage="蛺蝶科"/>
+                                        <connections>
+                                            <action selector="GoTable:" destination="VQR-sl-a0q" eventType="touchUpInside" id="LHo-EE-zMF"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOh-Qb-dkD">
+                                        <rect key="frame" x="0.0" y="306" width="187" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="187" id="82K-C6-YDa"/>
+                                            <constraint firstAttribute="height" constant="150" id="apz-mL-WIM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="30"/>
+                                        <state key="normal" title="鳳蝶科" backgroundImage="鳳蝶科"/>
+                                        <connections>
+                                            <action selector="GoTable:" destination="VQR-sl-a0q" eventType="touchUpInside" id="Zrw-Zw-uBj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jah-7y-tg0" firstAttribute="centerX" secondItem="PML-5R-KRf" secondAttribute="centerX" id="6SS-EB-XK7"/>
+                            <constraint firstItem="jah-7y-tg0" firstAttribute="centerY" secondItem="PML-5R-KRf" secondAttribute="centerY" id="7nl-fq-90v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9cH-KY-Ssx"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Taiwan Butterfly" id="hgf-tq-qUD"/>
+                    <connections>
+                        <segue destination="Weo-SY-XhU" kind="show" identifier="GoTable" id="H6e-EW-Omm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxo-q4-Xio" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.2" y="2.2488755622188905"/>
+        </scene>
+        <!--Butterfly Table View Controller-->
+        <scene sceneID="M8K-dc-5Od">
+            <objects>
+                <tableViewController id="Weo-SY-XhU" customClass="ButterflyTableViewController" customModule="mid" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="KkS-x2-6wd" customClass="Butter">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="169" id="dQT-aj-TEi" customClass="ButterflyTableViewCell" customModule="mid" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="169"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dQT-aj-TEi" id="CBV-4c-U0P">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="168.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="V9a-em-XCx">
+                                            <rect key="frame" x="16" y="28" width="228" height="112"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="beI-o8-CFh">
+                                                    <rect key="frame" x="0.0" y="0.0" width="146" height="112"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="146" id="lxA-Ah-mgS"/>
+                                                        <constraint firstAttribute="height" constant="112" id="uJw-vL-Xy0"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9G-em-hoQ">
+                                                    <rect key="frame" x="186" y="46" width="42" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="s9G-em-hoQ" firstAttribute="top" secondItem="V9a-em-XCx" secondAttribute="top" constant="46" id="LVZ-BI-2l4"/>
+                                                <constraint firstItem="beI-o8-CFh" firstAttribute="top" secondItem="V9a-em-XCx" secondAttribute="top" id="uxy-l8-oSK"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="V9a-em-XCx" secondAttribute="trailing" constant="131" id="2Wa-rO-5pY"/>
+                                        <constraint firstItem="V9a-em-XCx" firstAttribute="top" secondItem="CBV-4c-U0P" secondAttribute="topMargin" constant="17" id="OgB-Eg-6p6"/>
+                                        <constraint firstItem="V9a-em-XCx" firstAttribute="leading" secondItem="CBV-4c-U0P" secondAttribute="leadingMargin" id="iR7-sf-2fE"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="V9a-em-XCx" secondAttribute="bottom" constant="18" id="j07-OE-PrK"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="butterflyimage" destination="beI-o8-CFh" id="FjE-WW-bZq"/>
+                                    <outlet property="butterflylabel" destination="s9G-em-hoQ" id="Roq-Od-eaK"/>
+                                    <segue destination="2LK-d6-gDD" kind="show" identifier="showimage" id="Vhx-14-6tK"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Weo-SY-XhU" id="M0t-wB-agJ"/>
+                            <outlet property="delegate" destination="Weo-SY-XhU" id="zuk-aB-0yc"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAU-x6-yzN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967.20000000000005" y="2.2488755622188905"/>
+        </scene>
+        <!--Showbutterfly View Controller-->
+        <scene sceneID="ZBE-ev-OYD">
+            <objects>
+                <viewController id="2LK-d6-gDD" customClass="ShowbutterflyViewController" customModule="mid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lp7-4K-3kU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LYx-YU-IeF">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LYx-YU-IeF" firstAttribute="leading" secondItem="ZkV-S5-axr" secondAttribute="leading" id="93i-hw-euf"/>
+                            <constraint firstItem="LYx-YU-IeF" firstAttribute="top" secondItem="ZkV-S5-axr" secondAttribute="top" id="LqT-RG-5bT"/>
+                            <constraint firstItem="LYx-YU-IeF" firstAttribute="bottom" secondItem="ZkV-S5-axr" secondAttribute="bottom" id="Qd3-pp-qY3"/>
+                            <constraint firstItem="LYx-YU-IeF" firstAttribute="trailing" secondItem="ZkV-S5-axr" secondAttribute="trailing" id="R2u-6a-oXz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZkV-S5-axr"/>
+                    </view>
+                    <connections>
+                        <outlet property="showimage" destination="LYx-YU-IeF" id="xRU-UO-Ghx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RIz-S6-Dxr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1829.5999999999999" y="1.3493253373313345"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7jE-cu-5om">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hbg-Xr-TUT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wmn-FY-sMh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VQR-sl-a0q" kind="relationship" relationship="rootViewController" id="QV4-ud-Eo8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="daT-lx-8av" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-812" y="2.2488755622188905"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="粉蝶科" width="400" height="267"/>
+        <image name="蛺蝶科" width="400" height="267"/>
+        <image name="鳳蝶科" width="400" height="265"/>
+    </resources>
+</document>
