@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62819B0220BD9A4D00FF4482 /* Butterfly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62819B0120BD9A4D00FF4482 /* Butterfly.swift */; };
+		62819B0820BDA27000FF4482 /* ButterflyDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62819B0720BDA27000FF4482 /* ButterflyDetailHeaderView.swift */; };
+		62819B0A20BE70D400FF4482 /* ButterflyDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62819B0920BE70D400FF4482 /* ButterflyDetailIconTextCell.swift */; };
+		62819B0C20BE73CA00FF4482 /* ButterflyDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62819B0B20BE73CA00FF4482 /* ButterflyDetailTextCell.swift */; };
+		62819B1A20BEDEC800FF4482 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B0F20BEDEC000FF4482 /* Rubik-BlackItalic.ttf */; };
+		62819B1B20BEDEC800FF4482 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1020BEDEC100FF4482 /* Rubik-BoldItalic.ttf */; };
+		62819B1C20BEDEC800FF4482 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1120BEDEC100FF4482 /* Rubik-Light.ttf */; };
+		62819B1D20BEDEC800FF4482 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1220BEDEC200FF4482 /* Rubik-Regular.ttf */; };
+		62819B1E20BEDEC800FF4482 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1320BEDEC300FF4482 /* OFL.txt */; };
+		62819B1F20BEDEC800FF4482 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1420BEDEC300FF4482 /* Rubik-Italic.ttf */; };
+		62819B2020BEDEC800FF4482 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1520BEDEC400FF4482 /* Rubik-LightItalic.ttf */; };
+		62819B2120BEDEC800FF4482 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1620BEDEC400FF4482 /* Rubik-Bold.ttf */; };
+		62819B2220BEDEC800FF4482 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1720BEDEC500FF4482 /* Rubik-Medium.ttf */; };
+		62819B2320BEDEC800FF4482 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1820BEDEC600FF4482 /* Rubik-MediumItalic.ttf */; };
+		62819B2420BEDEC800FF4482 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1920BEDEC700FF4482 /* Rubik-Black.ttf */; };
 		62E31C5A209A1C3600B9FB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E31C59209A1C3600B9FB8E /* AppDelegate.swift */; };
 		62E31C5F209A1C3600B9FB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E31C5D209A1C3600B9FB8E /* Main.storyboard */; };
 		62E31C61209A1C3700B9FB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E31C60209A1C3700B9FB8E /* Assets.xcassets */; };
@@ -18,6 +33,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62819B0120BD9A4D00FF4482 /* Butterfly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Butterfly.swift; sourceTree = "<group>"; };
+		62819B0720BDA27000FF4482 /* ButterflyDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyDetailHeaderView.swift; sourceTree = "<group>"; };
+		62819B0920BE70D400FF4482 /* ButterflyDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyDetailIconTextCell.swift; sourceTree = "<group>"; };
+		62819B0B20BE73CA00FF4482 /* ButterflyDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyDetailTextCell.swift; sourceTree = "<group>"; };
+		62819B0F20BEDEC000FF4482 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		62819B1020BEDEC100FF4482 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		62819B1120BEDEC100FF4482 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		62819B1220BEDEC200FF4482 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		62819B1320BEDEC300FF4482 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		62819B1420BEDEC300FF4482 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		62819B1520BEDEC400FF4482 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		62819B1620BEDEC400FF4482 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		62819B1720BEDEC500FF4482 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		62819B1820BEDEC600FF4482 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		62819B1920BEDEC700FF4482 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
 		62E31C56209A1C3600B9FB8E /* mid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E31C59209A1C3600B9FB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62E31C5E209A1C3600B9FB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +71,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62819B0320BD9D9C00FF4482 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62E31C6F209A23FC00B9FB8E /* ButterflyTableViewController.swift */,
+				AFF3AD6B209ACF0A005A0884 /* ButterflyViewController.swift */,
+				AFF3AD6F209AD92C005A0884 /* ShowbutterflyViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62819B0420BD9DB900FF4482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62819B0120BD9A4D00FF4482 /* Butterfly.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62819B0520BD9DC600FF4482 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AFF3AD6D209AD60B005A0884 /* ButterflyTableViewCell.swift */,
+				62819B0720BDA27000FF4482 /* ButterflyDetailHeaderView.swift */,
+				62819B0920BE70D400FF4482 /* ButterflyDetailIconTextCell.swift */,
+				62819B0B20BE73CA00FF4482 /* ButterflyDetailTextCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62819B0620BD9DE000FF4482 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				62E31C5D209A1C3600B9FB8E /* Main.storyboard */,
+				62E31C62209A1C3700B9FB8E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		62819B0D20BEDDEA00FF4482 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				62819B0E20BEDDF600FF4482 /* Font */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		62819B0E20BEDDF600FF4482 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				62819B1320BEDEC300FF4482 /* OFL.txt */,
+				62819B1920BEDEC700FF4482 /* Rubik-Black.ttf */,
+				62819B0F20BEDEC000FF4482 /* Rubik-BlackItalic.ttf */,
+				62819B1620BEDEC400FF4482 /* Rubik-Bold.ttf */,
+				62819B1020BEDEC100FF4482 /* Rubik-BoldItalic.ttf */,
+				62819B1420BEDEC300FF4482 /* Rubik-Italic.ttf */,
+				62819B1120BEDEC100FF4482 /* Rubik-Light.ttf */,
+				62819B1520BEDEC400FF4482 /* Rubik-LightItalic.ttf */,
+				62819B1720BEDEC500FF4482 /* Rubik-Medium.ttf */,
+				62819B1820BEDEC600FF4482 /* Rubik-MediumItalic.ttf */,
+				62819B1220BEDEC200FF4482 /* Rubik-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		62E31C4D209A1C3600B9FB8E = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +154,14 @@
 		62E31C58209A1C3600B9FB8E /* mid */ = {
 			isa = PBXGroup;
 			children = (
+				62819B0D20BEDDEA00FF4482 /* Resource */,
+				62819B0620BD9DE000FF4482 /* Storyboard */,
+				62819B0520BD9DC600FF4482 /* View */,
+				62819B0420BD9DB900FF4482 /* Model */,
+				62819B0320BD9D9C00FF4482 /* Controller */,
 				62E31C59209A1C3600B9FB8E /* AppDelegate.swift */,
-				62E31C5D209A1C3600B9FB8E /* Main.storyboard */,
-				AFF3AD6F209AD92C005A0884 /* ShowbutterflyViewController.swift */,
-				AFF3AD6D209AD60B005A0884 /* ButterflyTableViewCell.swift */,
-				AFF3AD6B209ACF0A005A0884 /* ButterflyViewController.swift */,
 				62E31C60209A1C3700B9FB8E /* Assets.xcassets */,
-				62E31C62209A1C3700B9FB8E /* LaunchScreen.storyboard */,
 				62E31C65209A1C3700B9FB8E /* Info.plist */,
-				62E31C6F209A23FC00B9FB8E /* ButterflyTableViewController.swift */,
 			);
 			path = mid;
 			sourceTree = "<group>";
@@ -131,8 +224,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62819B2120BEDEC800FF4482 /* Rubik-Bold.ttf in Resources */,
+				62819B1B20BEDEC800FF4482 /* Rubik-BoldItalic.ttf in Resources */,
+				62819B2020BEDEC800FF4482 /* Rubik-LightItalic.ttf in Resources */,
+				62819B2220BEDEC800FF4482 /* Rubik-Medium.ttf in Resources */,
+				62819B1D20BEDEC800FF4482 /* Rubik-Regular.ttf in Resources */,
+				62819B1C20BEDEC800FF4482 /* Rubik-Light.ttf in Resources */,
 				62E31C64209A1C3700B9FB8E /* LaunchScreen.storyboard in Resources */,
 				62E31C61209A1C3700B9FB8E /* Assets.xcassets in Resources */,
+				62819B1F20BEDEC800FF4482 /* Rubik-Italic.ttf in Resources */,
+				62819B2320BEDEC800FF4482 /* Rubik-MediumItalic.ttf in Resources */,
+				62819B2420BEDEC800FF4482 /* Rubik-Black.ttf in Resources */,
+				62819B1A20BEDEC800FF4482 /* Rubik-BlackItalic.ttf in Resources */,
+				62819B1E20BEDEC800FF4482 /* OFL.txt in Resources */,
 				62E31C5F209A1C3600B9FB8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,9 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF3AD70209AD92C005A0884 /* ShowbutterflyViewController.swift in Sources */,
+				62819B0C20BE73CA00FF4482 /* ButterflyDetailTextCell.swift in Sources */,
 				62E31C5A209A1C3600B9FB8E /* AppDelegate.swift in Sources */,
 				62E31C70209A23FC00B9FB8E /* ButterflyTableViewController.swift in Sources */,
+				62819B0220BD9A4D00FF4482 /* Butterfly.swift in Sources */,
 				AFF3AD6C209ACF0A005A0884 /* ButterflyViewController.swift in Sources */,
+				62819B0820BDA27000FF4482 /* ButterflyDetailHeaderView.swift in Sources */,
+				62819B0A20BE70D400FF4482 /* ButterflyDetailIconTextCell.swift in Sources */,
 				AFF3AD6E209AD60B005A0884 /* ButterflyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
