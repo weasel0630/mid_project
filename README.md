@@ -12,9 +12,13 @@ Taiwan butterfly
 ## Butterfly 類別
 <p>欲新增蝴蝶資料可依照以下class類別欄位名稱增加陣列</p>
 <img src="https://github.com/weasel0630/mid_project/blob/master/mid/Assets.xcassets/butterfly%20class.png" >
-增加陣列：</br>
-```var butterfly: [Butterfly] = [Butterfly(name1: "北黃蝶", name2: "Eurema mandarina", herb: "鼠李科、豆科植物", distribution: "本種分布於日本、朝鮮半島南部、台灣、華中>與華南地區", habits: "本種幼蟲以多種鼠李科、豆科植物為食， 一年多世代， 成蟲全年可見。", image:"北黃蝶", lat:24.202632, lon:121.003187)]
+
 ```
+var butterfly:[Butterfly] = [Butterfly(name1: "北黃蝶", name2: "Eurema mandarina", herb: "鼠李科、豆科植物", distribution: "本種分布
+於日本、朝鮮半島南部、台灣、華中>與華南地區", habits: "本種幼蟲以多種鼠李科、豆科植物為食， 一年多世代， 成蟲全年可見。", image:"北黃蝶", 
+lat:24.202632, lon:121.003187)]
+```
+
 
 
     
