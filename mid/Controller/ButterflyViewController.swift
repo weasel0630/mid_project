@@ -22,7 +22,6 @@ class ButterflyViewController: UIViewController {
             destinationController.tag = 0
             destinationController.butterfly = ["北黃蝶", "紋白蝶","高山粉蝶","麻斑粉蝶","雲紋粉蝶"]
             destinationController.image = ["北黃蝶", "紋白蝶","高山粉蝶","麻斑粉蝶","雲紋粉蝶"]
-//            destinationController.butterfly = butterflies:[Butterfly]
 
         
         case 1:
@@ -30,14 +29,12 @@ class ButterflyViewController: UIViewController {
             destinationController.tag = 1
             destinationController.butterfly = ["武鎧蛺蝶","鹿野黑蔭蝶","朝倉三線蝶","黃斑蛺蝶","綠豹蛺蝶"]
             destinationController.image = ["武鎧蛺蝶","鹿野黑蔭蝶","朝倉三線蝶","黃斑蛺蝶","綠豹蛺蝶"]
-//
+
         case 2:
             let destinationController = segue.destination as! ButterflyTableViewController
             destinationController.tag = 2
             destinationController.butterfly = ["大琉璃紋鳳蝶","青帶鳳蝶","黃裳鳳蝶","綠斑鳳蝶","雙環鳳蝶"]
             destinationController.image = ["大琉璃紋鳳蝶","青帶鳳蝶","黃裳鳳蝶","綠斑鳳蝶","雙環鳳蝶"]
-            
-        
             
         default:
             break

@@ -16,7 +16,7 @@ class ShowbutterflyViewController: UIViewController,UITableViewDataSource, UITab
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 5
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row{
@@ -33,6 +33,15 @@ class ShowbutterflyViewController: UIViewController,UITableViewDataSource, UITab
             case 2:
                 let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: ButterflyDetailTextCell.self), for: indexPath)as!ButterflyDetailTextCell
                 cell.descriptionLabel.text = butterfly.habits
+                return cell
+            case 3:
+                let cell = tableView.dequeueReusableCell(withIdentifier: String(describing:ButterflyDetailSeparatorCell.self), for: indexPath) as!ButterflyDetailSeparatorCell
+                cell.titleLabel.text = butterfly.name1 + "觀察點"
+                return cell
+            
+            case 4:
+                let cell = tableView.dequeueReusableCell(withIdentifier: String(describing:ButterflyDetailMapCell.self), for: indexPath)as! ButterflyDetailMapCell
+                
                 return cell
             default:
             fatalError("Failed to instantiate the table view cell.")
@@ -63,12 +72,17 @@ class ShowbutterflyViewController: UIViewController,UITableViewDataSource, UITab
     
     /*
     // MARK: - Navigation
-
+     */
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "showMap"{
+            let destinationController = segue.destination as! MapViewController
+            destinationController.butterfly = butterfly
+        }
     }
-    */
+ 
 
 }

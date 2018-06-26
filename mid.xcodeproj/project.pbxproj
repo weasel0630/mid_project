@@ -22,6 +22,15 @@
 		62819B2220BEDEC800FF4482 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1720BEDEC500FF4482 /* Rubik-Medium.ttf */; };
 		62819B2320BEDEC800FF4482 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1820BEDEC600FF4482 /* Rubik-MediumItalic.ttf */; };
 		62819B2420BEDEC800FF4482 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62819B1920BEDEC700FF4482 /* Rubik-Black.ttf */; };
+		62A27DF220C143290009A9DF /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 62A27DED20C143280009A9DF /* OFL.txt */; };
+		62A27DF320C143290009A9DF /* PT_Sans-Web-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62A27DEE20C143280009A9DF /* PT_Sans-Web-Italic.ttf */; };
+		62A27DF420C143290009A9DF /* PT_Sans-Web-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62A27DEF20C143280009A9DF /* PT_Sans-Web-Regular.ttf */; };
+		62A27DF520C143290009A9DF /* PT_Sans-Web-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62A27DF020C143280009A9DF /* PT_Sans-Web-BoldItalic.ttf */; };
+		62A27DF620C143290009A9DF /* PT_Sans-Web-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62A27DF120C143290009A9DF /* PT_Sans-Web-Bold.ttf */; };
+		62BCFA5D20DBEF28005C9F1A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62BCFA5C20DBEF28005C9F1A /* MapKit.framework */; };
+		62BCFA5F20DBF39E005C9F1A /* ButterflyDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BCFA5E20DBF39E005C9F1A /* ButterflyDetailSeparatorCell.swift */; };
+		62BCFA6120DBF494005C9F1A /* ButterflyDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BCFA6020DBF494005C9F1A /* ButterflyDetailMapCell.swift */; };
+		62BCFA6320DBFA00005C9F1A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BCFA6220DBFA00005C9F1A /* MapViewController.swift */; };
 		62E31C5A209A1C3600B9FB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E31C59209A1C3600B9FB8E /* AppDelegate.swift */; };
 		62E31C5F209A1C3600B9FB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E31C5D209A1C3600B9FB8E /* Main.storyboard */; };
 		62E31C61209A1C3700B9FB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E31C60209A1C3700B9FB8E /* Assets.xcassets */; };
@@ -48,6 +57,15 @@
 		62819B1720BEDEC500FF4482 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		62819B1820BEDEC600FF4482 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
 		62819B1920BEDEC700FF4482 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		62A27DED20C143280009A9DF /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OFL.txt; path = mid/Resource/Font2/OFL.txt; sourceTree = SOURCE_ROOT; };
+		62A27DEE20C143280009A9DF /* PT_Sans-Web-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PT_Sans-Web-Italic.ttf"; path = "mid/Resource/Font2/PT_Sans-Web-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		62A27DEF20C143280009A9DF /* PT_Sans-Web-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PT_Sans-Web-Regular.ttf"; path = "mid/Resource/Font2/PT_Sans-Web-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		62A27DF020C143280009A9DF /* PT_Sans-Web-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PT_Sans-Web-BoldItalic.ttf"; path = "mid/Resource/Font2/PT_Sans-Web-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		62A27DF120C143290009A9DF /* PT_Sans-Web-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PT_Sans-Web-Bold.ttf"; path = "mid/Resource/Font2/PT_Sans-Web-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		62BCFA5C20DBEF28005C9F1A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		62BCFA5E20DBF39E005C9F1A /* ButterflyDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		62BCFA6020DBF494005C9F1A /* ButterflyDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyDetailMapCell.swift; sourceTree = "<group>"; };
+		62BCFA6220DBFA00005C9F1A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		62E31C56209A1C3600B9FB8E /* mid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E31C59209A1C3600B9FB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62E31C5E209A1C3600B9FB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62BCFA5D20DBEF28005C9F1A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +96,7 @@
 				62E31C6F209A23FC00B9FB8E /* ButterflyTableViewController.swift */,
 				AFF3AD6B209ACF0A005A0884 /* ButterflyViewController.swift */,
 				AFF3AD6F209AD92C005A0884 /* ShowbutterflyViewController.swift */,
+				62BCFA6220DBFA00005C9F1A /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -96,6 +116,8 @@
 				62819B0720BDA27000FF4482 /* ButterflyDetailHeaderView.swift */,
 				62819B0920BE70D400FF4482 /* ButterflyDetailIconTextCell.swift */,
 				62819B0B20BE73CA00FF4482 /* ButterflyDetailTextCell.swift */,
+				62BCFA5E20DBF39E005C9F1A /* ButterflyDetailSeparatorCell.swift */,
+				62BCFA6020DBF494005C9F1A /* ButterflyDetailMapCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +148,11 @@
 				62819B1620BEDEC400FF4482 /* Rubik-Bold.ttf */,
 				62819B1020BEDEC100FF4482 /* Rubik-BoldItalic.ttf */,
 				62819B1420BEDEC300FF4482 /* Rubik-Italic.ttf */,
+				62A27DED20C143280009A9DF /* OFL.txt */,
+				62A27DF120C143290009A9DF /* PT_Sans-Web-Bold.ttf */,
+				62A27DF020C143280009A9DF /* PT_Sans-Web-BoldItalic.ttf */,
+				62A27DEE20C143280009A9DF /* PT_Sans-Web-Italic.ttf */,
+				62A27DEF20C143280009A9DF /* PT_Sans-Web-Regular.ttf */,
 				62819B1120BEDEC100FF4482 /* Rubik-Light.ttf */,
 				62819B1520BEDEC400FF4482 /* Rubik-LightItalic.ttf */,
 				62819B1720BEDEC500FF4482 /* Rubik-Medium.ttf */,
@@ -135,11 +162,20 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		62BCFA5B20DBEF28005C9F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62BCFA5C20DBEF28005C9F1A /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		62E31C4D209A1C3600B9FB8E = {
 			isa = PBXGroup;
 			children = (
 				62E31C58209A1C3600B9FB8E /* mid */,
 				62E31C57209A1C3600B9FB8E /* Products */,
+				62BCFA5B20DBEF28005C9F1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +234,11 @@
 				TargetAttributes = {
 					62E31C55209A1C3600B9FB8E = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -224,13 +265,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62A27DF220C143290009A9DF /* OFL.txt in Resources */,
 				62819B2120BEDEC800FF4482 /* Rubik-Bold.ttf in Resources */,
 				62819B1B20BEDEC800FF4482 /* Rubik-BoldItalic.ttf in Resources */,
 				62819B2020BEDEC800FF4482 /* Rubik-LightItalic.ttf in Resources */,
 				62819B2220BEDEC800FF4482 /* Rubik-Medium.ttf in Resources */,
+				62A27DF520C143290009A9DF /* PT_Sans-Web-BoldItalic.ttf in Resources */,
+				62A27DF420C143290009A9DF /* PT_Sans-Web-Regular.ttf in Resources */,
 				62819B1D20BEDEC800FF4482 /* Rubik-Regular.ttf in Resources */,
 				62819B1C20BEDEC800FF4482 /* Rubik-Light.ttf in Resources */,
 				62E31C64209A1C3700B9FB8E /* LaunchScreen.storyboard in Resources */,
+				62A27DF320C143290009A9DF /* PT_Sans-Web-Italic.ttf in Resources */,
+				62A27DF620C143290009A9DF /* PT_Sans-Web-Bold.ttf in Resources */,
 				62E31C61209A1C3700B9FB8E /* Assets.xcassets in Resources */,
 				62819B1F20BEDEC800FF4482 /* Rubik-Italic.ttf in Resources */,
 				62819B2320BEDEC800FF4482 /* Rubik-MediumItalic.ttf in Resources */,
@@ -252,7 +298,10 @@
 				62819B0C20BE73CA00FF4482 /* ButterflyDetailTextCell.swift in Sources */,
 				62E31C5A209A1C3600B9FB8E /* AppDelegate.swift in Sources */,
 				62E31C70209A23FC00B9FB8E /* ButterflyTableViewController.swift in Sources */,
+				62BCFA5F20DBF39E005C9F1A /* ButterflyDetailSeparatorCell.swift in Sources */,
 				62819B0220BD9A4D00FF4482 /* Butterfly.swift in Sources */,
+				62BCFA6120DBF494005C9F1A /* ButterflyDetailMapCell.swift in Sources */,
+				62BCFA6320DBFA00005C9F1A /* MapViewController.swift in Sources */,
 				AFF3AD6C209ACF0A005A0884 /* ButterflyViewController.swift in Sources */,
 				62819B0820BDA27000FF4482 /* ButterflyDetailHeaderView.swift in Sources */,
 				62819B0A20BE70D400FF4482 /* ButterflyDetailIconTextCell.swift in Sources */,

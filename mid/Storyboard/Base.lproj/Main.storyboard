@@ -10,6 +10,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="PT_Sans-Web-Regular.ttf">
+            <string>PTSans-Regular</string>
+        </array>
         <array key="Rubik-Medium.ttf">
             <string>Rubik-Medium</string>
         </array>
@@ -152,11 +155,11 @@
             <objects>
                 <viewController id="2LK-d6-gDD" customClass="ShowbutterflyViewController" customModule="mid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lp7-4K-3kU">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bdF-YK-1zM">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="836"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <view key="tableHeaderView" contentMode="scaleAspectFill" id="eME-sz-qvr" userLabel="Header View" customClass="ButterflyDetailHeaderView" customModule="mid" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
@@ -225,8 +228,8 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISE-ry-rhT">
-                                                            <rect key="frame" x="30" y="5.5" width="317" height="20.5"/>
-                                                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="17"/>
+                                                            <rect key="frame" x="30" y="5" width="317" height="22"/>
+                                                            <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -254,7 +257,7 @@
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiI-As-W5j">
                                                     <rect key="frame" x="31" y="23" width="313" height="35"/>
-                                                    <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="15"/>
+                                                    <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -268,6 +271,69 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="descriptionLabel" destination="YiI-As-W5j" id="Inu-XC-nNy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ButterflyDetailSeparatorCell" rowHeight="69" id="Zzm-qk-AdC" customClass="ButterflyDetailSeparatorCell" customModule="mid" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="491" width="375" height="69"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zzm-qk-AdC" id="fXY-qR-zPW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="qB5-tU-HWB">
+                                                    <rect key="frame" x="16" y="38" width="343" height="28"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subsection Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mwU-Nb-fEh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="343" height="22"/>
+                                                            <fontDescription key="fontDescription" name="PTSans-Regular" family="PT Sans" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wO5-cY-CXE" userLabel="Separator">
+                                                            <rect key="frame" x="0.0" y="27" width="343" height="1"/>
+                                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="1" id="RGt-hR-0It"/>
+                                                            </constraints>
+                                                        </view>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="qB5-tU-HWB" firstAttribute="leading" secondItem="fXY-qR-zPW" secondAttribute="leading" constant="16" id="6g8-Yn-6bN"/>
+                                                <constraint firstItem="qB5-tU-HWB" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fXY-qR-zPW" secondAttribute="top" constant="11" id="E6S-rf-Qdt"/>
+                                                <constraint firstAttribute="trailing" secondItem="qB5-tU-HWB" secondAttribute="trailing" constant="16" id="dyR-OM-5Pb"/>
+                                                <constraint firstAttribute="bottom" secondItem="qB5-tU-HWB" secondAttribute="bottom" constant="3" id="iQ6-j0-30E"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="mwU-Nb-fEh" id="Usk-fZ-FOm"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ButterflyDetailMapCell" rowHeight="215" id="lp3-L4-Pi7" customClass="ButterflyDetailMapCell" customModule="mid" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="560" width="375" height="215"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lp3-L4-Pi7" id="y6G-WP-uav">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="215"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZh-17-jT8">
+                                                    <rect key="frame" x="0.0" y="10" width="375" height="205"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="205" id="rKE-rc-uK6"/>
+                                                    </constraints>
+                                                </mapView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="PZh-17-jT8" firstAttribute="leading" secondItem="y6G-WP-uav" secondAttribute="leading" id="FAr-PX-Ba7"/>
+                                                <constraint firstItem="PZh-17-jT8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y6G-WP-uav" secondAttribute="top" constant="10" id="Oz1-dF-cnw"/>
+                                                <constraint firstAttribute="bottom" secondItem="PZh-17-jT8" secondAttribute="bottom" id="b38-8p-DAJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="PZh-17-jT8" secondAttribute="trailing" id="xX8-J6-Sn3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="mapView" destination="PZh-17-jT8" id="QTC-t2-T7N"/>
+                                            <segue destination="ByO-k6-ASu" kind="show" identifier="showMap" id="PST-WW-R9V"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -286,6 +352,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZkV-S5-axr"/>
                     </view>
+                    <size key="freeformSize" width="375" height="900"/>
                     <connections>
                         <outlet property="headerView" destination="eME-sz-qvr" id="Bpv-Zc-lai"/>
                     </connections>
@@ -293,6 +360,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIz-S6-Dxr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1829.5999999999999" y="1.3493253373313345"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="VoF-2b-BqH">
+            <objects>
+                <viewController id="ByO-k6-ASu" customClass="MapViewController" customModule="mid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SCE-A0-1Em">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vAW-rV-rcC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vAW-rV-rcC" firstAttribute="trailing" secondItem="UxR-iY-ygp" secondAttribute="trailing" id="2Z7-vf-WNi"/>
+                            <constraint firstItem="vAW-rV-rcC" firstAttribute="top" secondItem="SCE-A0-1Em" secondAttribute="top" id="AcZ-mM-UaF"/>
+                            <constraint firstItem="vAW-rV-rcC" firstAttribute="leading" secondItem="UxR-iY-ygp" secondAttribute="leading" id="Rh9-k7-hIz"/>
+                            <constraint firstItem="vAW-rV-rcC" firstAttribute="bottom" secondItem="UxR-iY-ygp" secondAttribute="bottom" id="fVY-qA-mmf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UxR-iY-ygp"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="vAW-rV-rcC" id="TaN-cv-TSP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWt-li-wFA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.5999999999999" y="2.2488755622188905"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="7jE-cu-5om">
