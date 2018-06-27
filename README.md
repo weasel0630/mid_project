@@ -2,6 +2,14 @@
 <img src="https://www.ncnu.edu.tw/ncnuweb/units/share/全校共用/web_material/images/banner/banner_1.gif" >
 
 ## Taiwan butterfly
+#### 此APP收納了三種蝴蝶種類
+```
+粉蝶科、蛺蝶科、鳳蝶科
+```
+#### 每個科別各有五種蝴蝶，並且有他的詳細資訊
+```
+俗名、學名、食草、分佈地區、習性、可觀察之座標
+```
 
 <p>App demo 展現 （依序是：蝴蝶檢索、檢索結果、詳細資料、蝴蝶出沒底點）:</p>
 <img src="https://github.com/weasel0630/mid_project/blob/master/mid/Assets.xcassets/butterykind.png" height = 600 width=330>
